@@ -1,6 +1,6 @@
 {
   "name": "@vslutov/ofType",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Operator ofType, which works well with redux-batch-middleware",
   "main": "lib/index.js",
   "module": "src/index.js",
