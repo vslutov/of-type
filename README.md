@@ -6,7 +6,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/vslutov/ofType/badge.svg?branch=master)](https://coveralls.io/github/vslutov/ofType?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Operator ofType, which works well with redux-batch-middleware
+Operator ofType for [redux-observable](https://redux-observable.js.org/), compatible with [redux-batch-middleware](https://github.com/mrydengren/redux-batch-middleware)
 
 ## Install
 ```sh
@@ -16,4 +16,12 @@ npm install @vslutov/ofType
 ## Code example
 
 ```js
+import { ofType } from '@vslutov/ofType'
+
+const setProp = createAction('PROP/SET')
+
+const propEpic = action$ => action$.pipe(
+  ofType(setProp, /* other actions */),
+  // do something usefull
+)
 ```
