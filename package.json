@@ -1,5 +1,5 @@
 {
-  "name": "@vslutov/ofType",
+  "name": "@vslutov/of-type",
   "version": "0.1.4",
   "description": "Operator ofType for redux-observable, compatible with redux-batch-middleware",
   "main": "lib/index.js",
@@ -15,21 +15,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vslutov/ofType.git"
+    "url": "git+https://github.com/vslutov/of-type.git"
   },
   "keywords": [
     "redux",
     "redux-observable",
     "batch",
     "redux-batch-middleware",
+    "of-type",
     "ofType"
   ],
   "author": "Vladimir Lutov <vs@lutov.net> (https://lutov.net)",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/vslutov/ofType/issues"
+    "url": "https://github.com/vslutov/of-type/issues"
   },
-  "homepage": "https://github.com/vslutov/ofType#readme",
+  "homepage": "https://github.com/vslutov/of-type#readme",
   "devDependencies": {
     "ava": "^1.2.1",
     "commitizen": "^3.0.7",

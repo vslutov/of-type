@@ -10,13 +10,13 @@ Happy Contributing :slightly_smiling_face:
 
 ```bash
 # clone the repository to your local machine
-$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/ofType.git
+$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/of-type.git
 
 # navigate to the project's directory and install all the relevant dev-dependencies
-$ cd ofType && npm install
+$ cd of-type && npm install
 
 # include all the latest changes from the remote repository
-$ git remote add upstream https://github.com/vslutov/ofType.git
+$ git remote add upstream https://github.com/vslutov/of-type.git
 $ git pull --rebase upstream develop
 ```
 
